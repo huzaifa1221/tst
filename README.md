@@ -1,9 +1,9 @@
 # Frontend Setup
  
 ### Clone repository and switch to qa branch
-git clone https://github.com/TijarahV2/tijarah-backend.git
+''git clone https://github.com/TijarahV2/tijarah-backend.git
 cd tijarah-backend
-git checkout qa
+git checkout qa''
  
 ### Install dependencies
 npm install --legacy-peer-deps
