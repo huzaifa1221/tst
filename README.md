@@ -1,16 +1,14 @@
-############################################
 # Frontend Setup
-############################################
  
-# Clone repository and switch to qa branch
+### Clone repository and switch to qa branch
 git clone https://github.com/TijarahV2/tijarah-backend.git
 cd tijarah-backend
 git checkout qa
  
-# Install dependencies
+### Install dependencies
 npm install --legacy-peer-deps
  
-# Configure environment
+### Configure environment
 cp .env.local.example .env.local
  
 # Update environment variables in .env.local:
