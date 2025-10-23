@@ -1,7 +1,7 @@
 # Frontend Setup
  
 ### Clone repository and switch to qa branch
-    ```
+
     git clone https://github.com/TijarahV2/tijarah-backend.git
     cd tijarah-backend
     git checkout qa
