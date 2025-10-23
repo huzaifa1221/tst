@@ -18,9 +18,7 @@ git checkout qa ``
  `` NEXT_PUBLIC_PRODUCTION_API_URL = "http://localhost:3003"
  NEXT_PUBLIC_FRONTEND_URL = "http://localhost:3000" ``
  
-############################################
 # Backend Setup
-############################################
  
 # Clone repository and switch to qa branch
 ``git clone https://github.com/TijarahV2/tijarah-backend.git
@@ -61,9 +59,7 @@ import { EnvoyModule } from '@the-backend/envoy/envoy.module'; ``
 - If using MongoDB Atlas, comment out the following line in libs/database/src/database.module.ts:
 // replicaSet: config.databases.main.replicaSet, // Commented out for Atlas SRV connections
  
-############################################
 # Docker Compose Setup
-############################################
  
 # Create a development docker-compose file
 `` cp docker-compose.yaml docker-compose-dev.yaml``
